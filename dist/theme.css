@@ -1,0 +1,79 @@
+article.markdown-section {
+    font-family: "Noto Sans TC";
+    color: #333;
+}
+
+article.markdown-section .anchor,
+article.markdown-section .anchor span {
+    color: #333;
+}
+
+article.markdown-section table {
+    display: table;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article.markdown-section img {
+    display: block;
+    margin: 1.2em auto;
+    max-width: 100%;
+}
+
+article.markdown-section mark {
+    background-color: #ffecb3;
+}
+
+article.markdown-section strong {
+    color: #56b5e3;
+    font-weight: 700;
+}
+
+article.markdown-section pre {
+    border-radius: 4px;
+}
+
+/* docsify-tabs */
+.docsify-tabs__tab {
+    font-weight: 600;
+}
+
+.docsify-tabs__tab:hover {
+    color: #42b983;
+    cursor: pointer;
+}
+
+.docsify-tabs__tab--active:hover {
+    color: #333;
+    cursor: auto;
+}
+
+/* docsify-copy-code */
+.docsify-copy-code-button {
+    border-bottom-left-radius: 4px;
+    background: darkgray;
+}
+
+/* docsify-pagination */
+.pagination-item-title {
+    font-size: 1.2rem !important;
+    font-weight: 400;
+}
+
+/* docsify-scroll-to-top */
+.scroll-to-top {
+    opacity: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .scroll-to-top {
+        opacity: 1;
+        width: 40px !important;
+        height: 40px !important;
+        box-shadow: none !important;
+        border: none !important;
+        font-size: 22px !important;
+        line-height: 44px !important;
+    }
+}

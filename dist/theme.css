@@ -77,3 +77,9 @@ article.markdown-section pre {
         line-height: 44px !important;
     }
 }
+
+/* Mermaid */
+.mermaid svg {
+    display: block;
+    margin: auto;
+}

@@ -1,3 +1,7 @@
+:root {
+    --scroll-to-top-size: 32px;
+}
+
 article.markdown-section {
     font-family: "Noto Sans TC";
     color: #333;
@@ -69,12 +73,12 @@ article.markdown-section pre {
 @media screen and (max-width: 1200px) {
     .scroll-to-top {
         opacity: 1;
-        width: 40px !important;
-        height: 40px !important;
+        width: var(--scroll-to-top-size) !important;
+        height: var(--scroll-to-top-size) !important;
         box-shadow: none !important;
         border: none !important;
-        font-size: 22px !important;
-        line-height: 44px !important;
+        font-size: calc(-var(--scroll-to-top-size) / 2) !important;
+        line-height: var(--scroll-to-top-size) !important;
         background: #e8e8e8 !important;
         color: #555 !important;
     }

@@ -75,6 +75,8 @@ article.markdown-section pre {
         border: none !important;
         font-size: 22px !important;
         line-height: 44px !important;
+        background: #e8e8e8;
+        color: #555;
     }
 }
 

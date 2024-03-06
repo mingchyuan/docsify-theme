@@ -89,3 +89,13 @@ article.markdown-section pre {
     display: block;
     margin: auto;
 }
+
+/* graphviz */
+.graphviz svg {
+    display: block;
+    margin: auto;
+}
+
+.graphviz text {
+    font-family: "Noto Sans TC" !important;
+}

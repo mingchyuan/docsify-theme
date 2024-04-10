@@ -103,3 +103,8 @@ article.markdown-section pre {
 .graphviz text {
     font-family: "Noto Sans TC" !important;
 }
+
+/* docsify-pseudocode */
+.ps-root {
+    font-size: 18px;
+}

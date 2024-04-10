@@ -107,4 +107,5 @@ article.markdown-section pre {
 /* docsify-pseudocode */
 .ps-root {
     font-size: 18px;
+    margin: 1.2em 0;
 }

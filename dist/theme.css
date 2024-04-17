@@ -108,4 +108,6 @@ article.markdown-section pre {
 .ps-root {
     font-size: 18px;
     margin: 1.2em 0;
+    padding: 2em 0;
+    background-color: #f8f8f8;
 }

@@ -115,3 +115,8 @@ article.markdown-section pre {
     padding: 2em 0;
     background-color: #f8f8f8;
 }
+
+/* MathJax */
+docsify-latex mjx-container {
+    overflow-x: scroll;
+}

@@ -95,6 +95,10 @@ article.markdown-section pre {
 }
 
 /* graphviz */
+.graphviz {
+    overflow-x: scroll;
+}
+
 .graphviz svg {
     display: block;
     margin: auto;

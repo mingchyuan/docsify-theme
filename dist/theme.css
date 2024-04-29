@@ -120,6 +120,7 @@ article.markdown-section pre {
 /* MathJax */
 docsify-latex mjx-container {
     overflow-x: scroll;
+    padding: 10px 0px;
 }
 
 /* docsify-plugin-flexible-alerts */

@@ -97,6 +97,11 @@ article.markdown-section pre {
 }
 
 /* graphviz */
+.graphviz {
+    margin: 1rem 0px;
+}
+
+
 .graphviz svg {
     display: block;
     margin: auto;

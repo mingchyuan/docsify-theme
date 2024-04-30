@@ -37,6 +37,7 @@ article.markdown-section strong {
 
 article.markdown-section em {
     color: #e3566f;
+    padding-right: 3px;
 }
 
 article.markdown-section pre {

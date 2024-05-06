@@ -125,7 +125,11 @@ article.markdown-section pre {
 }
 
 .ps-root .ps-algorithm.with-caption>.ps-line:first-child {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.ps-root .ps-line {
+    margin: 0.5em 0;
 }
 
 /* docsify-plugin-flexible-alerts */

@@ -115,13 +115,17 @@ article.markdown-section pre {
 .ps-root {
     font-size: 18px;
     margin: 1.2em 0;
-    padding: 2em 0;
+    padding: 2em 10px;
     background-color: #f8f8f8;
 }
 
 .ps-root .ps-algorithm {
     margin: 0;
     border: none;
+}
+
+.ps-root .ps-algorithm.with-caption>.ps-line:first-child {
+    margin-bottom: 0.5em;
 }
 
 /* docsify-plugin-flexible-alerts */

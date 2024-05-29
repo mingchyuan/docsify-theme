@@ -141,3 +141,7 @@ article.markdown-section pre {
 .alert table tr:nth-child(2n) {
     background-color: #cdcdcd;
 }
+
+.alert hr {
+    border-bottom: 1px solid #cdcdcd;
+}

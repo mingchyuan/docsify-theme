@@ -133,9 +133,12 @@ article.markdown-section pre {
 }
 
 /* docsify-plugin-flexible-alerts */
-.alert.figure {
-    background-color: #d9f0f1 !important;
-    border: 1px solid #c6e8ea !important
+.alert {
+    border: none !important;
+}
+
+.alert.flat.figure {
+    background-color: #ebf9cc !important;
 }
 
 .alert table th,

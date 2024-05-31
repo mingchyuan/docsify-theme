@@ -133,6 +133,11 @@ article.markdown-section pre {
 }
 
 /* docsify-plugin-flexible-alerts */
+.alert.figure {
+    background-color: #f8f8f8;
+    border: none;
+}
+
 .alert table th,
 .alert table td {
     border: 1px solid #aaa;

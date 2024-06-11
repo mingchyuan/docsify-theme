@@ -153,3 +153,24 @@ article.markdown-section pre {
 .alert hr {
     border-bottom: 1px solid #cdcdcd;
 }
+
+/* MathJax */
+
+mjx-container {
+    overflow-y: hidden;
+    padding-bottom: 1em;
+}
+
+mjx-container::-webkit-scrollbar {
+    width: 5px;
+    display: block;
+}
+
+mjx-container::-webkit-scrollbar-track {
+    background: #e8e8e8;
+}
+
+mjx-container::-webkit-scrollbar-thumb {
+    border-radius: 99em;
+    background: darkgray;
+}

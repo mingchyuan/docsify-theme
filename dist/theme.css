@@ -162,7 +162,7 @@ mjx-container {
 }
 
 mjx-container::-webkit-scrollbar {
-    width: 5px;
+    height: 5px;
     display: block;
 }
 

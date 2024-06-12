@@ -125,6 +125,7 @@ article.markdown-section pre {
     margin: 1.2em 0;
     padding: 2em 10px;
     background-color: #f8f8f8;
+    overflow-y: hidden;
 }
 
 .ps-root .ps-algorithm {

@@ -13,11 +13,18 @@ article.markdown-section .anchor span {
 }
 
 article.markdown-section table {
-    display: table;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
+    overflow-y: hidden;
+    padding: 1em 0;
+}
+
+article.markdown-section table::-webkit-scrollbar {
+    height: 5px;
+    display: block;
+}
+
+article.markdown-section table::-webkit-scrollbar-thumb {
+    border-radius: 99em;
+    background: darkgray;
 }
 
 article.markdown-section img {

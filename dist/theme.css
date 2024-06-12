@@ -18,7 +18,7 @@ article.markdown-section table {
 }
 
 article.markdown-section table::-webkit-scrollbar {
-    height: 5px;
+    height: 3px;
     display: block;
 }
 
@@ -170,7 +170,7 @@ mjx-container {
 }
 
 mjx-container::-webkit-scrollbar {
-    height: 5px;
+    height: 3px;
     display: block;
 }
 

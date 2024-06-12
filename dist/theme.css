@@ -159,6 +159,7 @@ article.markdown-section pre {
 mjx-container {
     overflow-y: hidden;
     padding-bottom: 1em;
+    padding-top: 1px;
 }
 
 mjx-container::-webkit-scrollbar {

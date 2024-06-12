@@ -160,19 +160,12 @@ mjx-container {
     padding-bottom: 1em;
 }
 
+mjx-container::-webkit-scrollbar {
+    height: 5px;
+    display: block;
+}
 
-@media screen and (min-width: 1200px) {
-    mjx-container::-webkit-scrollbar {
-        height: 5px;
-        display: block;
-    }
-
-    mjx-container::-webkit-scrollbar-track {
-        background: #e8e8e8;
-    }
-
-    mjx-container::-webkit-scrollbar-thumb {
-        border-radius: 99em;
-        /* background: darkgray; */
-    }
+mjx-container::-webkit-scrollbar-thumb {
+    border-radius: 99em;
+    background: darkgray;
 }

@@ -17,16 +17,6 @@ article.markdown-section table {
     padding: 1em 0;
 }
 
-article.markdown-section table::-webkit-scrollbar {
-    height: 3px;
-    display: block;
-}
-
-article.markdown-section table::-webkit-scrollbar-thumb {
-    border-radius: 99em;
-    background: darkgray;
-}
-
 article.markdown-section img {
     display: block;
     margin: 1.2em auto;
@@ -170,12 +160,19 @@ mjx-container {
     padding-top: 1px;
 }
 
-mjx-container::-webkit-scrollbar {
-    height: 3px;
+/* scrollbar */
+mjx-container::-webkit-scrollbar,
+article.markdown-section table::-webkit-scrollbar,
+.ps-root::-webkit-scrollbar,
+code::-webkit-scrollbar {
+    height: 4px;
     display: block;
 }
 
-mjx-container::-webkit-scrollbar-thumb {
+mjx-container::-webkit-scrollbar-thumb,
+article.markdown-section table::-webkit-scrollbar-thumb,
+.ps-root::-webkit-scrollbar-thumb,
+code::-webkit-scrollbar-thumb {
     border-radius: 99em;
     background: darkgray;
 }

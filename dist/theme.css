@@ -151,6 +151,7 @@ article.markdown-section pre {
 
 .alert hr {
     border-bottom: 1px solid #cdcdcd;
+    margin: 1em 0;
 }
 
 /* MathJax */
